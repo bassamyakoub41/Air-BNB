@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:1000px;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    margin:0px 20px;
+    height: auto;
+} 
+#header{
+    width: 98%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+    border-bottom: 1px solid black ;
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+#main{
+    width: 98%;
+    /* height: 200px;
+    background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+/* A Side style */
+.aside{
+    width: 35%;
+    height: 200px;
+}
+.aside-text{
+    font-size: small;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom:10px;
+    gap: 10px;
+    width: 306px;
+}
+.find input{
+    width:40% ;
+}
+#number{
+    width: 40px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+/* side style finish */
+
+/* mid main */
+#mid-main{
+display: flex;
+flex-direction: column;
+width: 60%;
+margin-top: 20px;
+padding-left: 151px;
+}
+.latakia{
+    width: 350px;
+    height: 250px;
+}
+.joe{
+    width: 50px;
+    height:50px;
+}
+h4{
+    width: 230px;
+}
+.mid-area{
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+}
+.mid-text{
+    width: 138px;
+    margin-left: 5px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+/* mid main finish */
+
+/* right side */
+
+.image-side{
+    width: 150px;
+    height: 110px;
+}
+.right-side{
+    margin-right: 10px;
+}
+.right-side p{
+    font-size: 10px;
+    text-align: left;
+}
+.right-side h6{
+    font-size: 12px;
+    text-align: left;
+    color: rgb(213, 69, 117);
+    font-style: italic;
+}
+/* right side finish */
+
+/* main btn start */
+#main-2 h6{
+    font-size: 12px;
+    text-align: left;
+    color: rgb(213, 69, 117);
+    font-style: italic;
+}
+#main-2 p{
+    font-size: 10px;
+    text-align: left;
+}
+#main-2{
+    width: 100%;
+    height: auto;
+}
+
+#logos img{
+    width: 114px;
+    height: 31px;
+    margin-left: -11px;
+    padding-right: 20px;
+}
+#logos{
+    display: flex;
+    justify-items:flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+#logos h4{
+    width:100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* main btn finish */
+
+/* footer start */
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    height: auto;
+}
+/* footer finish */
+
+
+
+
+
+
+
+
+
+
